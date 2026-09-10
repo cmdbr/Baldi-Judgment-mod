@@ -14,24 +14,28 @@
         .el-video { width: 300px; height: 180px; background-color: #000; border-radius: 4px; }
         .el-saat { width: 150px; height: 45px; background-color: #18181b; color: #38bdf8; font-family: monospace; font-size: 13px; font-weight: bold; border-radius: 4px; border: 1px solid #333; }
         .el-buton { padding: 8px 16px; background-color: #2563eb; color: white; border: none; border-radius: 4px; cursor: pointer; font-weight: 600; font-size: 12px; text-decoration: none; display: flex; align-items: center; justify-content: center; }
+        .el-googlelogin { width: 220px; height: 45px; background-color: #ffffff; color: #3c4043; border: 1px solid #dadce0; border-radius: 4px; font-weight: 500; font-size: 13px; display: flex; align-items: center; justify-content: center; gap: 10px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); cursor: pointer; }
         .el-hareketli2d { width: 60px; height: 60px; background-color: #ea580c; color: white; font-weight: bold; border-radius: 6px; display: flex; align-items: center; justify-content: center; z-index: 99; }
-        .el-kodblogu { width: 260px; height: 150px; background-color: #0f172a; color: #38bdf8; font-family: monospace; font-size: 12px; border: 1px solid #33333d; border-radius: 6px; padding: 8px; text-align: left; align-items: flex-start; justify-content: flex-start; }
-        .el-kodblogu textarea { width: 100%; height: 100%; resize: none; box-sizing: border-box; background: transparent; color: #38bdf8; border: none; font-family: monospace; font-size: 12px; outline: none; }
-        .el-buton-0 { left: 7px; top: 352px; width: 1000px; }
-        .el-resim-1 { left: 20px; top: 71px; width: 250px; height: 250px; background-image: url('https://r.resimlink.com/0e_RdG.png'); }
-        .el-kutucuk-2 { left: 288px; top: 76px; width: 500px; height: 100px; }
-        .el-video-3 { left: 11px; top: 458px; }
-        .el-buton-4 { left: 7px; top: 400px; width: 1000px; }
+        .el-kodblogu { width: 420px; height: 320px; background-color: #0f172a; border: 1px solid #33333d; border-radius: 6px; padding: 4px; box-sizing: border-box; }
+        .el-kodblogu iframe { width: 100%; height: 100%; border: none; background: #ffffff; border-radius: 4px; }
+        .el-buton-0 { left: 7px; top: 332px; width: 1000px; }
+        .el-resim-1 { left: 30px; top: 44px; width: 250px; height: 250px; background-image: url('https://r.resimlink.com/0e_RdG.png'); }
+        .el-kutucuk-2 { left: 302px; top: 49px; width: 500px; height: 100px; }
+        .el-video-3 { left: 14px; top: 425px; }
+        .el-buton-4 { left: 7px; top: 377px; width: 1000px; }
+        .el-buton-5 { left: 305px; top: 227px; width: 500px; height: 50px; }
     </style>
 </head>
 <body>
     <div id="app-container">
-        <a href="https://www.mediafire.com/file/pg4le5y8sf4xz8h/Judgment_1.0.rar/file" class="element el-buton el-buton-0" target="_blank">İndir</a>
+        <a href="https://www.mediafire.com/file/4qjgylh2h5rbqre/Judgment_2.0.rar/file" class="element el-buton el-buton-0" target="_blank">İndir 2.0</a>
         <div class="element el-resim el-resim-1"></div>
         <div class="element el-kutucuk el-kutucuk-2">Baldi Judgment mod -- Tarafından İbrahim ex</div>
         <div class="element el-video el-video-3"><iframe src="https://www.youtube.com/embed/Tso9omjuNR4" style="width:100%; height:100%; border:none;" allowfullscreen></iframe></div>
-        <a href="https://www.mediafire.com/file/4qjgylh2h5rbqre/Judgment_2.0.rar/file" class="element el-buton el-buton-4" target="_blank">2.0 İndir</a>
+        <a href="https://www.mediafire.com/file/9rymluk5z614shf/Judgment_3.5_F%25C4%25B0XED.rar/file" class="element el-buton el-buton-4" target="_blank">İndir 3.0</a>
+        <button class="element el-buton el-buton-5">İndir 1.0</button>
     </div>
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
     <script>
         let variables = {};
 
